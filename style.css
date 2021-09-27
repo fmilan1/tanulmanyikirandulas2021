@@ -3,7 +3,7 @@ body {
 	font-family: Bahnschrift;
 }
 
-.menucim {
+.cim {
 	margin: 40px auto 120px auto;
 	height: 90px;
 	color: white;
@@ -32,11 +32,11 @@ h1 {
 	top: 0;
 }
 
-.menucim:hover > h1 {
+.cim:hover > h1 {
 	top: -100%;
 }
 
-.menucim:hover > h2 {
+.cim:hover > h2 {
 	top: 0;
 }
 
@@ -71,18 +71,19 @@ a {
 	transition: 0.4s;
 }
 
-.margintop {
-	margin-top: 20px;
-}
-
 a:hover {
 	width: 230px;
 	background-color: #ff6c3f;
 }
 
-#visszabox
+.margintop {
+	margin-top: 20px;
+}
+
+
+#menubox
 {
-	width: 70%;
+	width: 60%;
 	height: 50px;
 	top: 10%;
 	line-height: 50px;
@@ -90,16 +91,40 @@ a:hover {
 	justify-content: center;
 }
 
-.vissza
+.menuitem
+{
+	width: 150px;
+	border-radius: 25px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.menuitem:after
+{
+	z-index: -1;
+	content: "";
+	display: block;
+	width: 0px;
+	height: 40px;
+	background-color: #ff6c3f;
+	position: relative;
+	top: -50%;
+	transform: translate(0, -50%);
+	transition: 0.4s;
+	border-radius: 25px;
+}
+
+.menuitem:hover:after
 {
 	width: 150px;
 }
 
-.vissza:hover
+.menuitem:hover
 {
 	width: 150px;
-	border-radius: 25px;
+	background-color: #ffa048;
 }
+
 
 #aktiv {
 	width: 150px;
