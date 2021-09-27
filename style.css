@@ -46,10 +46,9 @@ h1 {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background-color: #ff8b34;
-	width: 450px;
-	height: 650px;
+	width: 23.5%;
+	height: 67%;
 	border-radius: 25px;
-	align-items: center;
 }
 
 ul {
