@@ -1,94 +1,108 @@
-body
-{
-    background-color: #f08232;
-    font-family: Bahnschrift;
+body {
+	background-color: #f08232;
+	font-family: Bahnschrift;
 }
 
-.menucim
-{
-    margin: 40px auto 120px auto;
-    height: 90px;
-    color: white;
-    text-align: center;
-    background-color: #ffa048;
-    width: 300px;
-    border-radius: 25px;
-    overflow: hidden;
-    
+.menucim {
+	margin: 40px auto 120px auto;
+	height: 90px;
+	color: white;
+	text-align: center;
+	background-color: #ffa048;
+	width: 300px;
+	border-radius: 25px;
+	overflow: hidden;
 }
 
-h1, h2
-{
-    height: 100%;
-    width: 80%;
-    line-height: 90px;
-    margin: auto;
-    transition: 0.4s;
-    position: relative;
-    margin-bottom: -30%;
+h1, h2 {
+	height: 100%;
+	width: 80%;
+	line-height: 90px;
+	margin: auto;
+	transition: 0.4s;
+	position: relative;
+	margin-bottom: -30%;
 }
 
-#cim2021
-{
-    top: 100%;
+h2 {
+	top: 100%;
 }
 
-#cimkirandulas
-{
-    top: 0;
+h1 {
+	top: 0;
 }
 
-.menucim:hover > #cimkirandulas
-{
-    top: -100%;
+.menucim:hover > h1 {
+	top: -100%;
 }
 
-.menucim:hover > #cim2021
-{
-    top: 0;
+.menucim:hover > h2 {
+	top: 0;
 }
 
-.menu
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #ff8b34;
-    width: 450px;
-    height: 650px;
-    border-radius: 25px;
-    align-items: center;
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ff8b34;
+	width: 450px;
+	height: 650px;
+	border-radius: 25px;
+	align-items: center;
 }
 
-ul
-{
-    background-color: red;
-    list-style: none;
+ul {
+	background-color: red;
+	list-style: none;
 }
 
-a
-{
-    display: block;
-    margin: auto auto 5px auto;
-    text-align: center;
-    text-decoration: none;
-    line-height: 40px;
-    color: white;
-    background-color: #ffa048;
-    width: 200px;
-    height: 40px;
-    border-radius: 7px;
-    transition: 0.4s;
+a {
+	display: block;
+	margin: auto auto 5px auto;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	color: white;
+	background-color: #ffa048;
+	width: 200px;
+	height: 40px;
+	border-radius: 7px;
+	transition: 0.4s;
 }
 
-.margontop
-{
-    margin-top: 20px;
+.margintop {
+	margin-top: 20px;
 }
 
-a:hover
+a:hover {
+	width: 230px;
+	background-color: #ff6c3f;
+}
+
+#visszabox
 {
-    width: 230px;
-    background-color: #ff6c3f;
+	width: 70%;
+	height: 50px;
+	top: 10%;
+	line-height: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.vissza
+{
+	width: 150px;
+}
+
+.vissza:hover
+{
+	width: 150px;
+	border-radius: 25px;
+}
+
+#aktiv {
+	width: 150px;
+	border-radius: 25px;
+	background-color: #ff6c3f;
 }
