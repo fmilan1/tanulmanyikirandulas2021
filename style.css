@@ -14,7 +14,7 @@ body {
 	overflow: hidden;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	height: 100%;
 	width: 80%;
 	line-height: 90px;
@@ -24,7 +24,7 @@ h1, h2 {
 	margin-bottom: -30%;
 }
 
-h2 {
+h2, h3 {
 	top: 100%;
 }
 
@@ -49,6 +49,8 @@ h1 {
 	width: 23.5%;
 	height: 67%;
 	border-radius: 25px;
+	border: 5px solid #ff6c3f;
+
 }
 
 ul {
@@ -64,14 +66,14 @@ a {
 	line-height: 40px;
 	color: white;
 	background-color: #ffa048;
-	width: 200px;
+	width: 44%;
 	height: 40px;
 	border-radius: 7px;
 	transition: 0.4s;
 }
 
 a:hover {
-	width: 230px;
+	width: 50%;
 	background-color: #ff6c3f;
 }
 
@@ -88,11 +90,20 @@ a:hover {
 	line-height: 50px;
 	display: flex;
 	justify-content: center;
+	position: fixed;
+	z-index: 5;
+	border: 5px solid #ff6c3f;
+	transition: 0.4s;
+}
+
+#menubox:hover
+{
+	width: 60%;
 }
 
 .menuitem
 {
-	width: 150px;
+	width: 13.3%;
 	border-radius: 25px;
 	overflow: hidden;
 	z-index: 1;
@@ -110,23 +121,21 @@ a:hover {
 	top: -50%;
 	transform: translate(0, -50%);
 	transition: 0.4s;
-	border-radius: 25px;
 }
 
 .menuitem:hover:after
 {
-	width: 150px;
+	width: 100%;
 }
 
 .menuitem:hover
 {
-	width: 150px;
+	width: 13.3%;
 	background-color: #ffa048;
 }
 
 
 #aktiv {
-	width: 150px;
 	border-radius: 25px;
 	background-color: #ff6c3f;
 }
